@@ -7,6 +7,7 @@ const resolvers = {
         }
     },
     Mutation: {
+        // TODO: CHECK HOW TO USE AUTH IN THE BELOW MUTATIONS
         login: async (parent, { email, password }) => {
             return await Auth.
         },

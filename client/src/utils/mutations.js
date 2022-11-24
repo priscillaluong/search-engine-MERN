@@ -1,4 +1,4 @@
-import { gql } from '@apollo/client';
+import { gql } from "@apollo/client";
 
 export const LOGIN_USER = gql`
   mutation loginUser($email: String!, $password: String!) {
@@ -24,6 +24,19 @@ export const ADD_USER = gql`
         username
         email
       }
+    }
+  }
+`;
+
+// TODO: CHECK HOW TO ADD INPUT TYPE TO QUERY
+export const SAVE_BOOK = gql`
+  mutation saveBook() {
+    saveBook() {
+        _id
+        username
+        email
+        bookCount
+        savedBooks
     }
   }
 `;
