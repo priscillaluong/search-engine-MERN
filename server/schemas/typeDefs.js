@@ -20,15 +20,16 @@ type Book {
 
 type Auth {
     token: String
-    user: [User]
+    user: User
 }
 
 type Query {
-    me: [User]
+    me: User
+    books: [Book]
 }
 
 type Mutation {
-
+    login
 }
 `;
 
