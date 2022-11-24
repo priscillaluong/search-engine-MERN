@@ -34,7 +34,6 @@ type Auth {
 
 type Query {
     me(id: ID!): User
-    books: [Book]
 }
 
 type Mutation {
