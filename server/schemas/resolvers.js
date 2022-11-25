@@ -5,7 +5,7 @@ const { signToken } = require("../utils/auth");
 const resolvers = {
   Query: {
     me: async (parent, args) => {
-      return await User.findById(args.id).populate("savedBooks");
+      return await User.findById(args._id).populate("savedBooks");
     },
   },
   Mutation: {
