@@ -30,8 +30,8 @@ export const ADD_USER = gql`
 
 // TODO: CHECK HOW TO ADD INPUT TYPE TO QUERY
 export const SAVE_BOOK = gql`
-  mutation saveBook() {
-    saveBook() {
+  mutation saveBook($input: userSaveBook) {
+    saveBook(input: $input) {
         _id
         username
         email
