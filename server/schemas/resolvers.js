@@ -11,10 +11,17 @@ const resolvers = {
     Mutation: {
         // TODO: CHECK HOW TO USE AUTH IN THE BELOW MUTATIONS
         login: async (parent, { email, password }) => {
-            return await Auth.
+            const user = await User.findOne({ email });
+
+            if (!user) {
+                
+            }
         },
         addUser: async (parent, { username, email, password }) => {
+            const user = await User.create({ username, email, password });
+            const token = signToken(user);
 
+            return { token, user};
         },
         saveBook: async (parent, { input }) => {
             return await User.findOneAndUpdate
