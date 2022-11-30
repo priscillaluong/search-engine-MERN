@@ -46,3 +46,60 @@ THEN that book is deleted from my saved books list
 WHEN I click on the Logout button
 THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button  
 ```
+
+# Installation:
+
+To install dependancies:
+```
+npm i
+```
+To run application:
+```
+npm start
+```
+
+# Screenshots of Deployed Application:
+
+Desktop / Larger Screens - Homepage:
+
+![Desktop View - Homepage](./images/home.png)
+
+Mobile View - Homepage:
+
+<img src="./images/m-home.png" alt="Mobile View - Homepage" width="300">
+
+Desktop / Larger Screens - Portfolio Page:
+
+![Desktop View - Portfolio page](./images/portfolio.png)
+
+Mobile View - Portfolio Page:
+
+<img src="./images/m-portfolio.png" alt="Mobile View - Portfolio Page" width="300">
+
+Desktop / Larger Screens - Resume Page:
+
+![Desktop View - Resume page](./images/resume.png)
+
+Mobile View - Resume Page:
+
+<img src="./images/m-resume.png" alt="Mobile View - Resume Page" width="300">
+
+Desktop / Larger Screens - Contact Page:
+
+![Desktop View - Contact page](./images/contact.png)
+
+Mobile View - Contact Page:
+
+<img src="./images/m-contact.png" alt="Mobile View - Contact Page" width="300">
+
+# License:
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+# Link to Deployed Application:
+
+[Click here](https://priscillaluong.github.io/my-react-portfolio/)
+
+### Final note:
+
+_Any feedback to improve code or implement best practice would be appreciated_ 😊
