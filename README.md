@@ -1,5 +1,9 @@
 # search-engine-MERN
 
+A book search application built using an Apollo Server, GraphQL API - queries and mutations to fetch and modify data, and an authentication middleware.
+
+It has been refactored as it was previously built with Google Books API and a RESTful API, a React front end, MongoDB database, and Node.js/Express.js server.
+
 ## User Story
 
 ```md
