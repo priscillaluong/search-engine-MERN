@@ -64,17 +64,9 @@ Desktop / Larger Screens - Homepage:
 
 ![Desktop View - Homepage](./images/home.png)
 
-Mobile View - Homepage:
-
-<img src="./images/m-home.png" alt="Mobile View - Homepage" width="300">
-
 Desktop / Larger Screens - Portfolio Page:
 
 ![Desktop View - Portfolio page](./images/portfolio.png)
-
-Mobile View - Portfolio Page:
-
-<img src="./images/m-portfolio.png" alt="Mobile View - Portfolio Page" width="300">
 
 Desktop / Larger Screens - Resume Page:
 
