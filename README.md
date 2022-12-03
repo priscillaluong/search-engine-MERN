@@ -60,29 +60,13 @@ npm run develop
 
 # Screenshots of Deployed Application:
 
-Desktop / Larger Screens - Homepage:
+Homepage:
 
-![Desktop View - Homepage](./images/home.png)
+![Homepage](./assets/home.png)
 
-Desktop / Larger Screens - Portfolio Page:
+Search:
 
-![Desktop View - Portfolio page](./images/portfolio.png)
-
-Desktop / Larger Screens - Resume Page:
-
-![Desktop View - Resume page](./images/resume.png)
-
-Mobile View - Resume Page:
-
-<img src="./images/m-resume.png" alt="Mobile View - Resume Page" width="300">
-
-Desktop / Larger Screens - Contact Page:
-
-![Desktop View - Contact page](./images/contact.png)
-
-Mobile View - Contact Page:
-
-<img src="./images/m-contact.png" alt="Mobile View - Contact Page" width="300">
+![Search](./assets/search.png)
 
 # License:
 
