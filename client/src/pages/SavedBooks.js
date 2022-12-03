@@ -13,7 +13,7 @@ const SavedBooks = () => {
   const [userData, setUserData] = useState({});
 
   // Invoke `useMutation()` hook to return a Promise-based function and data about the SAVE_BOOK mutation
-  const [removeBook] = useMutation(REMOVE_BOOK);
+  const [removeBook, { error }] = useMutation(REMOVE_BOOK);
 
   // use this to determine if `useEffect()` hook needs to run again
   const userDataLength = Object.keys(userData).length;
