@@ -16,7 +16,7 @@ const SignupForm = () => {
   const [showAlert, setShowAlert] = useState(false);
     // TODO 
   // Invoke `useMutation()` hook to return a Promise-based function and data about the SAVE_BOOK mutation
-  const [addUser, { error }] = useMutation(ADD_USER);
+  const [addUser, { error, data }] = useMutation(ADD_USER);
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
@@ -38,6 +38,7 @@ const SignupForm = () => {
       const { data } = await addUser({
         variables: { ...userFormData },
       });
+      console.log(data);
       Auth.login(data.token);
 
 /*       const response = await createUser(userFormData);

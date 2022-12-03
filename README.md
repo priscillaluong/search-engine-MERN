@@ -51,11 +51,11 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 
 To install dependancies:
 ```
-npm i
+npm install
 ```
 To run application:
 ```
-npm start
+npm run develop
 ```
 
 # Screenshots of Deployed Application:
@@ -90,7 +90,7 @@ Mobile View - Contact Page:
 
 # Link to Deployed Application:
 
-[Click here](https://priscillaluong.github.io/my-react-portfolio/)
+[Click here](https://search-engine-mern.herokuapp.com/)
 
 ### Final note:
 
